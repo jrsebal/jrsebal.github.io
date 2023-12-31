@@ -1,0 +1,40 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.post-link {
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #24678d;
+  letter-spacing: -1px;
+  line-height: 1.2;
+}
+
+p {
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #777777;
+  letter-spacing: -1px;
+  text-align: justify;
+  line-height: 22px;
+  font-stretch: 100%;
+  letter-spacing: 0px;
+}
+.post-content {
+    display: flex;
+}
+
+.flex-child {
+  flex: 50%;
+  flex-basis: 50%;
+  margin-left: 5%
+}  
+
+.flex-child:first-child {
+  flex: 45%;
+  flex-basis: 45%;
+} 

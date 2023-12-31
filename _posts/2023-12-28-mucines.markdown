@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Conformational analysis of MUC1 derivatives: Finding the key elements required for an optimal interaction antigen-antibody"
+date:   2023-12-26 00:16:35 +0100
+categories: jekyll update
+imagenes:
+  - /assets/images/research/muc1.jpeg
+  - /assets/images/research/muc2.jpeg
+  - /assets/images/research/muc3.png
+  
+  
+---
+Mucin MUC1 is an *O*-glycoprotein strongly overexpressed in various tumors. In healthy tissues, the MUC1 backbone is decorated with complex oligosaccharides, while in cancer cells it shows simple and truncated carbohydrates. As a result, different tumor-associated carbohydrate antigens (TACAs), such as the Tn determinant (α-O-GalNAc-Ser/Thr), are exposed to the immune system and can be recognized by different antibodies. Due to this unique characteristic, MUC1 derivatives are attracting great interest as a potential tool in developing therapeutic vaccines for the treatment of cancer. Nevertheless, the structural bases for the design of these vaccines remain unclear. From the view of molecular recognition, the sequence Ala-Pro-Asp-Thr-Arg-Pro (PDTRP) comprises the minimal epitope for most of anti-MUC1 antibodies. It is observed that **the glycosylation of the threonine residue of this epitope with GalNAc enhances the binding affinity towards the antibodies, resulting in a stronger immune response.** Therefore, we consider of pivotal importance to determinate the key elements responsible for the molecular recognition between MUC1-like glycopeptides and anti-MUC1 antibodies. Our group has dedicated a considerable effort to understand the conformational behavior of MUC1 derivatives in both the free state and bound to biological targets. We have found differences between the α-O-GalNAc-Ser and the α-O-GalNAcThr antigens, with implications for the molecular recognition processes in which these compounds are involved. In this regard, we have recently reported the X-ray structures of short glycopeptides bound to the anti-MUC1 antibody SM3. The analysis of these structures reveals that for glycopeptides bearing the α-O-GalNAcThr antigen, the sugar moiety interacts with the antibody through a hydrogen bond between its hydroxymethyl group and a tyrosine of the protein and establishing a hydrophobic contact through the N-acetyl group.  In turn, the methyl group of the threonine residue is engaged in a hydrophobic contact and forces the sugar unit to be exposed to the solvent, a particular orientation that is not possible for the analogue derivative with serine. ​​

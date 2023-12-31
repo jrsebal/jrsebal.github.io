@@ -1,0 +1,20 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.post-content {
+    display: flex;
+}
+
+.flex-child {
+  flex: 25%;
+  flex-basis: 25%;
+  margin-left: 5%
+}  
+
+.flex-child:first-child {
+  flex: 70%;
+  flex-basis: 70%;
+} 

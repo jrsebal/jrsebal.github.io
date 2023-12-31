@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head-page.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+          <header class="post-header">
+            
+          </header>
+          
+          <div class="post-content">
+        
+            <div class="flex-child">
+              {{ content }}
+            </div>
+            
+            <div class="flex-child">
+              {% if page.imagenes %}
+                <div class="gallery">
+                  {% for image in page.imagenes %}
+                    <img src="{{ site.baseurl }}{{ image }}" alt="{{ image }}">
+                  {% endfor %}
+                </div>
+              {% endif %}
+        
+            </div>
+            
+          </div>
+          <iframe src="{{page.mapa}}"></iframe>
+        </article>
+        
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
+

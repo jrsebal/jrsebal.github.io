@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head-post.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+          <header class="post-header">
+            
+          </header>
+          
+          <div class="post-content">
+
+  {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        <div class="post-content">
+          <div class="flex-child">
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        
+          {{ post.content }}
+        </div>
+        <div class="flex-child">
+          {% if post.imagenes %}
+            <div class="gallery">
+              {% for image in post.imagenes %}
+                <img src="{{ site.baseurl }}{{ image }}" alt="{{ image }}">
+              {% endfor %}
+            </div>
+          {% endif %}
+    
+        </div>
+      </li>
+      {%- endfor -%}
+    </ul>
+
+  {%- endif -%}
+
+</div>
+</article>
+</div>
+</main>
+
+{%- include footer.html -%}
+
+</body>
+
+</html>
+
+
