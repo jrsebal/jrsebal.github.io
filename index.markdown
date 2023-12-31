@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ABOUT ME
-permalink: /about_me/
+permalink: /
 order: 1 
 imagenes:
   - /assets/images/about-me/logo_ur.png
